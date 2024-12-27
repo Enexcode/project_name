@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Page</title>
+    <!-- All CSS Link Here  -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- Navbar Area Start  -->
+    <nav class="navbar navbar-expand-lg position-relative">
+      <div class="nav_bg_blur"></div>
+        <div class="container-fluid nav_padding">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tv Series</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New & Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
+            </ul>
+            <form class="d-flex nav_btn">
+              <a class="s_and_n" href="#"><img src="images/icons/search.svg" alt="search"></a>
+              <a class="s_and_n" href="#"><img src="images/icons/notification.svg" alt="notification"></a>
+              <a class="profile" href="#"><img src="images/profile.png" alt="profile"></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar Area End  -->
+    <!-- Banner Area Start  -->
+    <section id="bammer_area" class="position-relative d_banner">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="details_banner_contact" style="background-image: url(images/slider/home_banner.png);">
+                    <div class="details_card">
+                        <div class="row m-auto">
+                            <div class="col-lg-12">
+                                <div class="details_small_card">
+                                    <div class="details_manu text-center">
+                                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Overview</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Directed by</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Cast</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four" type="button" role="tab" aria-controls="pills-four" aria-selected="false">Produced by</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="pills-five-tab" data-bs-toggle="pill" data-bs-target="#pills-five" type="button" role="tab" aria-controls="pills-five" aria-selected="false">Writing Credits</button>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div class="details_line"></div>
+                                    <div class="tab-content" id="pills-tabContent">
+                                      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="row d_tabs_one">
+                                          <div class="col-lg-4 text-end">
+                                            <img src="images/cover/gorila.png" alt="cover">
+                                          </div>
+                                          <div class="col-lg-8">
+                                            <div class="d_tabs_one_text">
+                                              <div class="slider_text">
+                                                <span>Action</span>
+                                                <h3>King Kong</h3>
+                                                <div class="rating_date_lang_time_qua d-flex">
+                                                  <div class="d-flex rating_part">
+                                                    <img src="images/icons/star.svg" alt="rating">
+                                                    <p>4.9</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2024</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>English</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2h 24min</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <span>4K</span>
+                                                  </div>
+                                                </div>
+                                                <p class="banner_text_detilts">The "King Kong" franchise has had a significant impact on popular culture,and adaptations across various media. The character of King Kong has become an iconic symbol of both the beauty and the beast within humanity's relationship with nature.</p>
+                                                <div class="banner_button d-flex">
+                                                  <a class="d-inline-block" href="#">
+                                                    <div class="d-flex">
+                                                      <img src="images/icons/play.svg" alt="play">Play Now
+                                                    </div>
+                                                  </a>
+                                                  <a class="banner_button_two" href="#">Watch Trailer</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div class="row d_tabs_one">
+                                          <div class="col-lg-4 text-end">
+                                            <img src="images/cover/gorila.png" alt="cover">
+                                          </div>
+                                          <div class="col-lg-8">
+                                            <div class="d_tabs_one_text">
+                                              <div class="slider_text">
+                                                <!-- <span>Action</span> -->
+                                                <h3>Name Of Directed </h3>
+                                                <div class="rating_date_lang_time_qua d-flex">
+                                                  <div class="d-flex rating_part">
+                                                    <img src="images/icons/star.svg" alt="rating">
+                                                    <p>4.9</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2024</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>English</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2h 24min</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <span>4K</span>
+                                                  </div>
+                                                </div>
+                                                <p class="banner_text_detilts">The "King Kong" franchise has had a significant impact on popular culture,and adaptations across various media. The character of King Kong has become an iconic symbol of both the beauty and the beast within humanity's relationship with nature.</p>
+                                                <!-- <div class="banner_button d-flex">
+                                                  <a class="d-inline-block" href="#">
+                                                    <div class="d-flex">
+                                                      <img src="images/icons/play.svg" alt="play">Play Now
+                                                    </div>
+                                                  </a>
+                                                  <a class="banner_button_two" href="#">Watch Trailer</a>
+                                                </div> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                        <div class="row d_tabs_one">
+                                          <div class="col-lg-4 text-end">
+                                            <img src="images/cover/gorila.png" alt="cover">
+                                          </div>
+                                          <div class="col-lg-8">
+                                            <div class="d_tabs_one_text">
+                                              <div class="slider_text">
+                                                <!-- <span>Action</span> -->
+                                                <h3>$30000000</h3>
+                                                <div class="rating_date_lang_time_qua d-flex">
+                                                  <div class="d-flex rating_part">
+                                                    <img src="images/icons/star.svg" alt="rating">
+                                                    <p>4.9</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2024</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>English</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2h 24min</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <span>4K</span>
+                                                  </div>
+                                                </div>
+                                                <p class="banner_text_detilts">The "King Kong" franchise has had a significant impact on popular culture,and adaptations across various media. The character of King Kong has become an iconic symbol of both the beauty and the beast within humanity's relationship with nature.</p>
+                                                <!-- <div class="banner_button d-flex">
+                                                  <a class="d-inline-block" href="#">
+                                                    <div class="d-flex">
+                                                      <img src="images/icons/play.svg" alt="play">Play Now
+                                                    </div>
+                                                  </a>
+                                                  <a class="banner_button_two" href="#">Watch Trailer</a>
+                                                </div> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
+                                        <div class="row d_tabs_one">
+                                          <div class="col-lg-4 text-end">
+                                            <img src="images/cover/gorila.png" alt="cover">
+                                          </div>
+                                          <div class="col-lg-8">
+                                            <div class="d_tabs_one_text">
+                                              <div class="slider_text">
+                                                <!-- <span>Action</span> -->
+                                                <h3>Sponser By NASA</h3>
+                                                <div class="rating_date_lang_time_qua d-flex">
+                                                  <div class="d-flex rating_part">
+                                                    <img src="images/icons/star.svg" alt="rating">
+                                                    <p>4.9</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2024</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>English</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2h 24min</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <span>4K</span>
+                                                  </div>
+                                                </div>
+                                                <p class="banner_text_detilts">The "King Kong" franchise has had a significant impact on popular culture,and adaptations across various media. The character of King Kong has become an iconic symbol of both the beauty and the beast within humanity's relationship with nature.</p>
+                                                <!-- <div class="banner_button d-flex">
+                                                  <a class="d-inline-block" href="#">
+                                                    <div class="d-flex">
+                                                      <img src="images/icons/play.svg" alt="play">Play Now
+                                                    </div>
+                                                  </a>
+                                                  <a class="banner_button_two" href="#">Watch Trailer</a>
+                                                </div> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
+                                        <div class="row d_tabs_one">
+                                          <div class="col-lg-4 text-end">
+                                            <img src="images/cover/gorila.png" alt="cover">
+                                          </div>
+                                          <div class="col-lg-8">
+                                            <div class="d_tabs_one_text">
+                                              <div class="slider_text">
+                                                <!-- <span>Action</span> -->
+                                                <h3>Writing Man</h3>
+                                                <div class="rating_date_lang_time_qua d-flex">
+                                                  <div class="d-flex rating_part">
+                                                    <img src="images/icons/star.svg" alt="rating">
+                                                    <p>4.9</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2024</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>English</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <p>2h 24min</p>
+                                                    <div class="line_sm"></div>
+                                                  </div>
+                                                  <div class="d-flex rating_part">
+                                                    <span>4K</span>
+                                                  </div>
+                                                </div>
+                                                <p class="banner_text_detilts">The "King Kong" franchise has had a significant impact on popular culture,and adaptations across various media. The character of King Kong has become an iconic symbol of both the beauty and the beast within humanity's relationship with nature.</p>
+                                                <!-- <div class="banner_button d-flex">
+                                                  <a class="d-inline-block" href="#">
+                                                    <div class="d-flex">
+                                                      <img src="images/icons/play.svg" alt="play">Play Now
+                                                    </div>
+                                                  </a>
+                                                  <a class="banner_button_two" href="#">Watch Trailer</a>
+                                                </div> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Most Movie Area Start  -->
+    <section id="most_movie_tab">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>You may also like</h3>
+          </div>
+        
+          <div class="row mt56">
+            <div class="col-lg-12 position-relative">
+              <div class="movie_slider_main row">
+                <div class="movie_slider_items col-lg-3">
+                  <div class="movie_slider_cover">
+                    <img src="images/cover/kong.png" alt="movie">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="slider_detils">
+                    <div class="d-flex justify-content-between title_eya">
+                      <h3>Godzilla vs. Kong</h3>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="rating_date_lang_time_qua d-flex">
+                      <div class="d-flex rating_part">
+                        <img src="images/icons/star.svg" alt="rating">
+                        <p>4.9</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2024</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>English</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2h 24min</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <span>4K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="movie_slider_items col-lg-3">
+                  <div class="movie_slider_cover">
+                    <img src="images/cover/goatlife.png" alt="movie">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="slider_detils">
+                    <div class="d-flex justify-content-between title_eya">
+                      <h3>The Goat Life</h3>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="rating_date_lang_time_qua d-flex">
+                      <div class="d-flex rating_part">
+                        <img src="images/icons/star.svg" alt="rating">
+                        <p>4.9</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2024</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>English</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2h 24min</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <span>4K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="movie_slider_items col-lg-3">
+                  <div class="movie_slider_cover">
+                    <img src="images/cover/madame.png" alt="movie">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="slider_detils">
+                    <div class="d-flex justify-content-between title_eya">
+                      <h3>Madame Web</h3>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="rating_date_lang_time_qua d-flex">
+                      <div class="d-flex rating_part">
+                        <img src="images/icons/star.svg" alt="rating">
+                        <p>4.9</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2024</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>English</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2h 24min</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <span>4K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="movie_slider_items col-lg-3">
+                  <div class="movie_slider_cover">
+                    <img src="images/cover/beekeeper.png" alt="movie">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="slider_detils">
+                    <div class="d-flex justify-content-between title_eya">
+                      <h3>The Beekeepe</h3>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="rating_date_lang_time_qua d-flex">
+                      <div class="d-flex rating_part">
+                        <img src="images/icons/star.svg" alt="rating">
+                        <p>4.9</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2024</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>English</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2h 24min</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <span>4K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="movie_slider_items col-lg-3">
+                  <div class="movie_slider_cover">
+                    <img src="images/cover/madame.png" alt="movie">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="slider_detils">
+                    <div class="d-flex justify-content-between title_eya">
+                      <h3>Madame Web</h3>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="rating_date_lang_time_qua d-flex">
+                      <div class="d-flex rating_part">
+                        <img src="images/icons/star.svg" alt="rating">
+                        <p>4.9</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2024</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>English</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <p>2h 24min</p>
+                        <div class="line_sm"></div>
+                      </div>
+                      <div class="d-flex rating_part">
+                        <span>4K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img class="arrow_left" src="images/icons/arrow_left.svg" alt="leftarrow">
+              <img class="arrow_right" src="images/icons/arrow_right.svg" alt="rightarrow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Most Movie Area End  -->
+    <!-- Footer Area Start Here  -->
+    <section id="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer_content text-center">
+              <img src="images/logo/logo.png" alt="logo">
+              <div class="d-flex justify-content-center">
+                <ul class="d-flex">
+                  <li><a href="#">Terms of service</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <br> printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="foot_line">
+              </div>
+              <div class="copyright">
+                <p>© 2024 UVACHA, All right reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Area End  -->
+
+    <!-- Footer Js  -->
+    <script>
+
+    </script>
+    <!-- All JS Link Here  -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

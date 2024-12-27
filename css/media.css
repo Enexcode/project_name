@@ -1,0 +1,32 @@
+
+/* Responsive Css Here 992 to 1199.98  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+/* Responsive Css Here 1200 to 1399.98px  */
+@media (min-width: 1200px) and (max-width: 1599.98px) { 
+
+.rating_date_lang_time_qua .line_sm {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.d_tabs_one img {
+	/* width: 380px; */
+	border-radius: 12px;
+	height: 79%;
+}
+.landing_footer_manu ul li a {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+ }
+
+@media (min-width: 1600px) and (max-width: 1799.98px) { 
+
+.rating_date_lang_time_qua .line_sm {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+ }

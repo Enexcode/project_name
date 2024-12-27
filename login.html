@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- All CSS Link Here  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="login_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center m-auto">
+                    <div class="login_card text-center">
+                        <img src="images/logo/logo.png" alt="logo">
+                        <h3>LogIn</h3>
+                        <form action="#" method="post">
+                            <div class="mb-3 text-start">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <div class="login_input">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" >
+                                    <img src="images/icons/mail.svg" alt="mail">
+                                </div>
+                            </div>
+                            <div class="mb-3 text-start inputToInput">
+                                <label for="exampleFormControlInput1p" class="form-label">Password</label>
+                                <div class="login_input">
+                                    <input id="password-field" type="password" class="form-control" id="exampleFormControlInput1p" autocomplete="false" readonly onfocus="this.removeAttribute('readonly');">
+                                    <img src="images/icons/lock.svg" alt="lock">
+                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password show_password"></span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between forget_text">
+                                <div class="d-flex check_box_label">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="html">
+                                        <label for="html"></label>
+                                      </div>
+                                      <label for="html">Remember me</label>
+                                </div>
+                                  <a href="#">Forgot password?</a>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit">Login</button>
+                            </div>
+                        </form>
+                        <div class="or_log_text d-flex  justify-content-between">
+                            <hr>
+                            <p>Or Login with</p>
+                            <hr>
+                        </div>
+                        <div class="login_extra_button d-flex">
+                            <a href="#"><img src="images/icons/apple.svg" alt="apple"> Continue with Apple </a>
+                        </div>
+                        <div class="login_extra_button d-flex">
+                            <a href="#"><img src="images/icons/google.svg" alt="apple"> Continue with Apple </a>
+                        </div>
+                        <div class="login_not_then_regi d-flex justify-content-center">
+                            <p>New to Uvacha?</p>
+                            <a href="#">Sign up now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- All JS Link Here  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(".toggle-password").click(function() {
+      
+          $(this).toggleClass("fa-eye fa-eye-slash");
+          var input = $($(this).attr("toggle"));
+          if (input.attr("type") == "password") {
+            input.attr("type", "text");
+          } else {
+            input.attr("type", "password");
+          }
+        });
+    </script>
+</body>
+</html>
